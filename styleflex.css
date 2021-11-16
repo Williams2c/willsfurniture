@@ -1,0 +1,165 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+    /* font-family: 'Mohave', sans-serif;  */
+    /* font-family: 'Noto Sans', sans-serif; */
+    /* font-family: 'Lobster Two', cursive; */
+    /* font-family: 'Irish Grover', cursive; */
+}
+
+/* start of nav-bar */
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem;
+}
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .1rem solid rgb(13, 89, 252);
+    padding-bottom: 1rem ;
+}
+
+.nav-bar-social-ctn {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+    padding: 0rem;
+}
+
+.nav-bar-social-link {
+    color: rgb(13, 89, 252);
+}
+
+.nav-bar-content-ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.nav-bar-content {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-content-item {
+    margin-right: 2rem ;
+    padding-left: 3rem;
+    color: rgb(13, 89, 252);
+    font-family: 'Lobster Two', cursive;
+    text-transform: capitalize;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.nav-bar-search-ctn {
+    border-bottom: .1rem solid rgb(13, 89, 252);
+    margin-right: 1rem;
+}
+
+.nav-bar-search {
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    text-transform: capitalize
+}
+
+.nav-bar-search-btn {
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    background-color: transparent;
+    border: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-bar-list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0.5rem 0rem;
+    padding: 0rem;
+    border-bottom: .1rem solid rgb(13, 89, 252);
+    color: rgb(2, 31, 196);
+    cursor: pointer;
+}
+
+/* end of nav-bar */
+/* start of header */
+.header {
+    background-image: url("images/background.jfif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: 70vh;
+    margin: 2rem;
+}
+
+.header-logo-ctn {
+    width: 8rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.header-logo {
+    width: 100%;
+    height: auto;
+}
+
+.header-content {
+
+    text-align: center;
+}
+
+.header-heading {
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 5rem;
+     letter-spacing: .1rem;
+     text-transform: uppercase;
+     color: rgb(2, 31, 196);
+     animation: will .2s 1s backwards;
+     transition: all .2s;
+}
+
+.header-btn {
+    color: #fff;
+    background-color: rgb(13, 89, 252);
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 1s;
+    animation: will .2s 2s backwards;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    color: rgb(13, 89, 252);
+}
+
+@keyframes will {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* end of header */
